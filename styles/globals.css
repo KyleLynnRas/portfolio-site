@@ -229,14 +229,14 @@ body {
 			rgba(235, 120, 66, 0.822),
 			rgba(238, 175, 87, 0.979)
 		),
-		url("https://imgur.com/jQGIJLW");
+		url("https://i.imgur.com/fNKf0MM.jpg");
 	background-image: -moz-linear-gradient(
 			to left,
 			rgba(241, 94, 64, 0.774),
 			rgba(235, 120, 66, 0.822),
 			rgba(238, 175, 87, 0.979)
 		),
-		url("https://imgur.com/jQGIJLW");
+		url("https://i.imgur.com/fNKf0MM.jpg");
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -258,15 +258,14 @@ body {
 	font-weight: bold;
 	color: #fff;
 	font-size: 35px;
-	padding-top: 30px;
-	margin-left: 10px;
+	margin-top: 90px;
 	text-align: left;
 	width: 90vw;
 }
 
-.block {
+.block, .proj-blurb {
 	padding: 30px 10px 30px 10px;
-	margin-top: 40px;
+	margin-top: 10px;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
@@ -315,6 +314,24 @@ body {
 	font-size: 25px;
 	color: #fff;
 	margin: 30px;
+}
+
+/*-----NAV-----*/
+.navbar {
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: transparent;
+	width: 100vw;
+}
+
+.navbar span,
+.nav-link {
+	color: #fff;
+	cursor: pointer;
+	font-size: 15px;
 }
 
 /*-----MQ-----*/
@@ -412,7 +429,7 @@ body {
 		margin-left: 10px;
 	}
 
-	.block {
+	.block, .proj-blurb  {
 		padding: 50px 35px;
 		width: 85vw;
 		margin-bottom: 60px;
@@ -447,6 +464,14 @@ body {
 	.footer-icon {
 		font-size: 30px;
 		margin: 40px;
+	}
+
+	/*--nav--*/
+	.navbar span,
+	.nav-link {
+		color: #fff;
+		cursor: pointer;
+		font-size: 20px;
 	}
 }
 
@@ -528,7 +553,7 @@ body {
 		margin-left: 20px;
 	}
 
-	.block {
+	.block, .proj-blurb  {
 		padding: 60px 45px;
 		width: 85vw;
 		margin-bottom: 80px;
@@ -543,7 +568,7 @@ body {
 		font-size: 40px;
 	}
 
-	.content p {
+	.content p, .proj-blurb  {
 		font-size: 24px;
 	}
 
@@ -561,6 +586,12 @@ body {
 	.footer-icon {
 		font-size: 35px;
 		margin: 45px;
+	}
+
+	/*--nav--*/
+	.navbar span,
+	.nav-link {
+		font-size: 25px;
 	}
 }
 
@@ -662,11 +693,10 @@ body {
 
 	.proj-title {
 		font-size: 65px;
-		padding-top: 40px;
-		margin-left: 30px;
+		margin-top: 110px;
 	}
 
-	.block {
+	.block, .proj-blurb  {
 		padding: 60px 40px;
 		width: 80vw;
 	}
@@ -680,7 +710,7 @@ body {
 		font-size: 40px;
 	}
 
-	.content p {
+	.content p, .proj-blurb  {
 		font-size: 24px;
 	}
 

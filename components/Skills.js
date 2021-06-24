@@ -14,9 +14,9 @@ import {
 	SiJquery,
 	SiMongodb,
 	SiCss3,
-    SiNextDotJs, 
-    SiBootstrap, 
-    SiBulma
+	SiNextDotJs,
+	SiBootstrap,
+	SiBulma,
 } from "react-icons/si";
 
 const Skills = (props) => {
@@ -36,9 +36,9 @@ const Skills = (props) => {
 				<Tech icon={DiHtml5} label="HTML5" />
 				<Tech icon={SiCss3} label="CSS3" />
 				<Tech icon={DiGitBranch} label="Git" />
-                <Tech icon={SiNextDotJs} label="Next.js" />
-                <Tech icon={SiBootstrap} label="Bootstrap" />
-                <Tech icon={SiBulma} label="Bulma" />
+				<Tech icon={SiNextDotJs} label="Next.js" />
+				<Tech icon={SiBootstrap} label="Bootstrap" />
+				<Tech icon={SiBulma} label="Bulma" />
 			</div>
 		</section>
 	);

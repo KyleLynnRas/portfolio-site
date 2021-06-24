@@ -14,10 +14,7 @@ const HighlightSection = (props) => {
 				icon={<MdPhoneAndroid />}
 				par="Fully responsive applications"
 			/>
-            <Highlight
-				icon={<GiPaintBrush />}
-				par="Visually capitivating designs"
-			/>
+			<Highlight icon={<GiPaintBrush />} par="Visually capitivating designs" />
 		</section>
 	);
 };
