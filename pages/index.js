@@ -1,7 +1,7 @@
 //components 
-import Head from "../components/HeadComp";
 import About from "../components/About";
 import Skills from "../components/Skills";
+import HeadComp from "../components/HeadComp";
 
 export default function Home() {
   console.log("~*~*~*~*~*~*~*~*~~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~")
@@ -9,7 +9,7 @@ export default function Home() {
   console.log("~*~*~*~*~*~*~*~*~~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~")
 	return (
 		<div>
-      <Head />
+      <HeadComp />
 			<section className="header">
 						<h1 className="home-title">Kyle Rasmussen</h1>
 						<h3 className="home-sub">Full Stack Engineer</h3>
