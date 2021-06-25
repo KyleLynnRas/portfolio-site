@@ -1,4 +1,3 @@
-// import Image from "next/image";
 import HighlightSection from "./HighlightSection";
 
 const About = () => {

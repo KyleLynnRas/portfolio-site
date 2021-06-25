@@ -9,7 +9,7 @@ const Nav = (props) => {
 			<Link className="nav-link" href="/projects">
 				<span>PROJECTS</span>
 			</Link>
-			<Link className="nav-link" href="/">
+			<Link className="nav-link" href="/contact">
 				<span>CONTACT</span>
 			</Link>
 			<a

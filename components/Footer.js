@@ -4,8 +4,8 @@ import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
 	return (
-		<footer class="footer">
-			<div class="content has-text-centered">
+		<footer className="footer">
+			<div className="content has-text-centered">
 				<p className="footer-icon-container">
 					<a
 						href="https://github.com/KyleLynnRas"
