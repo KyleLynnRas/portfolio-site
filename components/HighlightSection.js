@@ -6,14 +6,8 @@ import Highlight from "./Highlight";
 const HighlightSection = (props) => {
 	return (
 		<section className="section highlight-section-container">
-			<Highlight
-				icon={<FaGraduationCap />}
-				par="General Assembly Software Engineering Fellow"
-			/>
-			<Highlight
-				icon={<MdPhoneAndroid />}
-				par="Fully responsive applications"
-			/>
+			<Highlight icon={<FaGraduationCap />} par="General Assembly Fellow" />
+			<Highlight icon={<MdPhoneAndroid />} par="Responsive applications" />
 			<Highlight icon={<GiPaintBrush />} par="Visually capitivating designs" />
 		</section>
 	);
